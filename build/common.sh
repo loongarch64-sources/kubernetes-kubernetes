@@ -253,6 +253,7 @@ function kube::build::update_dockerfile() {
   else
     sed_opts=(-i '')
   fi
+  sed "${sed_opts[@]}" "s|KUBE_BASE_IMAGE_REGISTRY|${KUBE_BASE_IMAGE_REGISTRY}|"  "${LOCAL_OUTPUT_BUILD_CONTEXT}/Dockerfile"
   sed "${sed_opts[@]}" "s/KUBE_BUILD_IMAGE_CROSS_TAG/${KUBE_BUILD_IMAGE_CROSS_TAG}/" "${LOCAL_OUTPUT_BUILD_CONTEXT}/Dockerfile"
 }
 
