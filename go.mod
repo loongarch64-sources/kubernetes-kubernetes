@@ -93,10 +93,10 @@ require (
 	go.etcd.io/etcd v0.5.0-alpha.5.0.20200910180754-dd1b699fc489
 	golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83
 	golang.org/x/exp v0.0.0-20210220032938-85be41e4509f // indirect
-	golang.org/x/net v0.0.0-20210224082022-3d97a244fca7
+	golang.org/x/net v0.1.0
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sys v0.0.0-20210426230700-d19ff857e887
-	golang.org/x/term v0.0.0-20210220032956-6a3ed077a48d
+	golang.org/x/sys v0.1.0
+	golang.org/x/term v0.1.0
 	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
 	golang.org/x/tools v0.1.0
 	gonum.org/v1/gonum v0.6.2
@@ -458,10 +458,8 @@ replace (
 	golang.org/x/lint => golang.org/x/lint v0.0.0-20200302205851-738671d3881b
 	golang.org/x/mobile => golang.org/x/mobile v0.0.0-20201217150744-e6ae53a27f4f
 	golang.org/x/mod => golang.org/x/mod v0.3.1-0.20200828183125-ce943fd02449
-	golang.org/x/net => golang.org/x/net v0.0.0-20210224082022-3d97a244fca7
 	golang.org/x/oauth2 => golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/sync => golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9
-	golang.org/x/sys => golang.org/x/sys v0.0.0-20210426230700-d19ff857e887
 	golang.org/x/term => golang.org/x/term v0.0.0-20210220032956-6a3ed077a48d
 	golang.org/x/text => golang.org/x/text v0.3.4
 	golang.org/x/time => golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
